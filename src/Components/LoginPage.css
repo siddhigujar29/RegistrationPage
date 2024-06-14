@@ -1,0 +1,66 @@
+/* App.css */
+/* .login-container {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border: 10px solid #c14040;
+    
+  }
+   */
+   /* LoginPage.css */
+.login-container {
+    display: inline-block; /* Ensure the container only takes up the necessary width */
+    padding: 20px;
+    border: 1px solid #ccc; /* Add border here */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in the container's total width */
+    width: 100%; /* Make the container take up the full width available */
+    max-width: 400px; /* Set a maximum width for the container */
+    margin: 100px auto; /* Center the container horizontally */
+  }
+  
+  input {
+    width: 70%;
+    padding: 9px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .btn{
+    color: black;
+    text-decoration: none;
+    display: inline-block; /* Ensure the container only takes up the necessary width */
+    padding: 4px;
+    border: 2px solid #ccc; /* Add border here */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in the container's total width */
+    /* width: 100%; Make the container take up the full width available */
+    max-width: 400px; /* Set a maximum width for the container */
+    /* margin: 100px auto; Center the container horizontally */
+  }
